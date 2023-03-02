@@ -41,3 +41,24 @@ ou attribute binding. Mais pour afficher des données, il faut d'abord des donn�
 
 Pour lier une méthode à un événement d'un élément du template, mettez l'événement entre parenthèses  () 
 et passez la méthode en argument ; ex. : (click)="onClickButton()"
+Question 2
+Qu'est-ce que la string interpolation ?
+
+
+La string interpolation permet d'afficher la valeur d'une variable dans le DOM.
+Quelle syntaxe utilise-t-on pour la string interpolation ?
+
+Les doubles accolades  {{ }}
+Qu'est-ce que la liaison par attribut, ou attribute binding ?
+Elle permet de lier la valeur d'une variable à un attribut d'un élément du DOM
+Que met-on autour de l'attribut dans le HTML pour la liaison par attribut, ou attribute binding ?
+Les crochets  []
+Question 6
+Qu'est-ce que la liaison par événement, ou event binding ?
+
+Elle permet de lier une méthode TypeScript à un événement du DOM.
+Que met-on autour du nom de l'événement dans le HTML pour la liaison par événement, ou event binding ?
+Les parenthèses  ()
+Une directive est une classe qui vient ajouter du comportement à l'élément sur lequel elle est posée. 
+L'astérisque au début du nom  *ngIf  nous montre qu'il s'agit d'une directive structurelle, 
+qui viendra donc toucher à la structure du document.
