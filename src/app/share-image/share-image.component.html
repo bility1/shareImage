@@ -1,10 +1,10 @@
-<h2>{{title}}</h2>
+<h2>{{shareImage.title}}</h2>
 -------------------------------------------------------
 <div class="share-image-card">
-<p>Date de création{{createdDate}}</p>
-<img [src]="imagesUrl" [alt]="title">
-<p>{{description}}</p>
+<p>Date de création{{shareImage.createdDate}}</p>
+<img [src]="shareImage.imageUrl" [alt]="shareImage.title">
+<p>{{shareImage.description}}</p>
   <p>
     <button (click)="onSnap()">{{buttonText}}</button>
-    🤌 {{ snaps }}</p>
+    🤌 {{ shareImage.snaps }}</p>
 </div>
