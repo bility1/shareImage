@@ -62,3 +62,9 @@ Les parenthèses  ()
 Une directive est une classe qui vient ajouter du comportement à l'élément sur lequel elle est posée. 
 L'astérisque au début du nom  *ngIf  nous montre qu'il s'agit d'une directive structurelle, 
 qui viendra donc toucher à la structure du document.
+
+Ajout optionnel 
+Vous pouvez ajouter des propriétés optionnelles à une classe en y ajoutant un point d'interrogation  ?
+
+Ajouter la directive  *ngIf  à un élément (qui peut aussi être un component) dit à Angular d'ajouter ou non cet élément au DOM selon la condition que vous lui passez,
+par exemple  <p *ngIf="size === 'large'">

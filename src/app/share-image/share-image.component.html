@@ -4,6 +4,7 @@
 <p>Date de création{{shareImage.createdDate}}</p>
 <img [src]="shareImage.imageUrl" [alt]="shareImage.title">
 <p>{{shareImage.description}}</p>
+  <p *ngIf="shareImage.location"> Photo prise à {{shareImage.location}}</p>
   <p>
     <button (click)="onSnap()">{{buttonText}}</button>
     🤌 {{ shareImage.snaps }}</p>
