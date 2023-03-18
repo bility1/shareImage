@@ -91,3 +91,9 @@ Vous avez utilisé des directives par attribut pour gérer dynamiquement les sty
 [ngClass]  pour ajouter et retirer des classes CSS selon une condition donnée.
 
 Un pipe permet de formater l'affichage d'une donnée sans modifier la donnée sous-jacente.
+
+DecimalPipe – facilite l'affichage de nombres avec des chiffres après la virgule (qui met une virgule plutôt qu'un point, par exemple).
+
+PercentPipe – formate les chiffres en pourcentage.
+
+CurrencyPipe – permet d'afficher des nombres sous forme de monnaie très facilement.

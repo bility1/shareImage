@@ -1,8 +1,10 @@
 <h2 xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">{{shareImage.title | titlecase}}</h2>
 -------------------------------------------------------
 <div class="share-image-card" [ngClass]="{snapped:buttonText ===  'j\'aime'}">
-<p>Date de création{{shareImage.createdDate | date:' dd/MM/yy, à HH:mm'}}</p>
-<img [src]="shareImage.imageUrl" [alt]="shareImage.title">
+<p>{{6454654465 | currency:'EUR'}}</p>
+  <p>vote : {{0.656 | percent:'1.0' }}</p>
+  <p>Date de création{{shareImage.createdDate | date:' dd/MM/yy, à HH:mm'}}</p>
+  <img [src]="shareImage.imageUrl" [alt]="shareImage.title">
 <p>{{shareImage.description
   +632}}</p>
   <p *ngIf="shareImage.location"> Photo prise à {{shareImage.location}}</p>
