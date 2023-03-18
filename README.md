@@ -89,3 +89,5 @@ Vous avez utilisé des directives par attribut pour gérer dynamiquement les sty
 [ngStyle]  pour paramétrer des styles selon des valeurs venant du TypeScript ;
 
 [ngClass]  pour ajouter et retirer des classes CSS selon une condition donnée.
+
+Un pipe permet de formater l'affichage d'une donnée sans modifier la donnée sous-jacente.
