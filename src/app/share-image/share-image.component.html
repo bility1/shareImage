@@ -1,11 +1,12 @@
-<h2>{{shareImage.title}}</h2>
+<h2 xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">{{shareImage.title}}</h2>
 -------------------------------------------------------
-<div class="share-image-card">
+<div class="share-image-card" [ngClass]="{snapped:buttonText === 'j\'aime'}">
 <p>Date de création{{shareImage.createdDate}}</p>
 <img [src]="shareImage.imageUrl" [alt]="shareImage.title">
 <p>{{shareImage.description}}</p>
   <p *ngIf="shareImage.location"> Photo prise à {{shareImage.location}}</p>
   <p>
     <button (click)="onSnap()">{{buttonText}}</button>
-    🤌 {{ shareImage.snaps }}</p>
+    <span [ngStyle]="{color: 'rgb(0,'+ shareImage.snaps +',0)'}">
+          🤌 {{ shareImage.snaps }}</span></p>
 </div>

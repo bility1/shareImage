@@ -1,2 +1,7 @@
-<app-share-image [shareImage]="mySnap"></app-share-image>
-<app-share-image [shareImage]="mySecSnap"></app-share-image>
+
+
+
+
+
+<app-share-image *ngFor="let faceSnap of faceSnaps"
+[shareImage]="faceSnap"></app-share-image>

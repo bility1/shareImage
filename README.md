@@ -68,3 +68,24 @@ Vous pouvez ajouter des propriétés optionnelles à une classe en y ajoutant un
 
 Ajouter la directive  *ngIf  à un élément (qui peut aussi être un component) dit à Angular d'ajouter ou non cet élément au DOM selon la condition que vous lui passez,
 par exemple  <p *ngIf="size === 'large'">
+
+La directive  *ngFor  vous permet d'insérer un élément dans le DOM pour chaque élément dans un tableau.
+
+La syntaxe  let element of array  vous donne accès à l'élément 
+de chaque itération, vous permettant 
+de l'injecter dans un component, par exemple.
+
+La directive  [ngClass]  permet d'ajouter dynamiquement des classes à des éléments HTML.
+
+[ngClass]  prend un objet en argument où les clés sont des noms de classe CSS, et les valeurs sont les conditions 
+selon lesquelles les classes doivent être appliquées.
+
+*ngIf  pour ajouter un élément ou non au DOM selon une condition donnée ;
+
+*ngFor  pour ajouter autant d'éléments au DOM qu'il y a d'éléments dans un tableau.
+
+Vous avez utilisé des directives par attribut pour gérer dynamiquement les styles :
+
+[ngStyle]  pour paramétrer des styles selon des valeurs venant du TypeScript ;
+
+[ngClass]  pour ajouter et retirer des classes CSS selon une condition donnée.
