@@ -4,11 +4,15 @@ import {registerLocaleData} from '@angular/common';
 import * as fr from '@angular/common/locales/fr';
 import { AppComponent } from './app.component';
 import { ShareImageComponent } from './share-image/share-image.component';
+import { ShareImageListComponent } from './share-image-list/share-image-list.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShareImageComponent
+    ShareImageComponent,
+    ShareImageListComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule

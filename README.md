@@ -97,3 +97,8 @@ DecimalPipe – facilite l'affichage de nombres avec des chiffres après la virg
 PercentPipe – formate les chiffres en pourcentage.
 
 CurrencyPipe – permet d'afficher des nombres sous forme de monnaie très facilement.
+
+
+les servives permettent de centraliser les données et la logique pour les différents domaines 
+pour créer un service @Injectable() à une classe
+dans le constructeur private userService: userService
